@@ -22,7 +22,19 @@ export class About extends React.Component {
           style={{backgroundColor: '#ffffff'}}
           onClick={this.onOpenModal}>ABOUT</button>
         <Modal open={open} onClose={this.onCloseModal} center>
-          <h2>Simple centered modal</h2>
+          <div className="ui segment" style={{marginTop: '35px', fontFamily: 'sans-serif'}}>
+            <p>Brian Pennington is a Junior Developer based in Milwaukee, WI.</p>
+            <p>Experience in the following:</p>
+            <ul>
+              <li>React/JavaScript (used to build this page)</li>
+              <li>C#/ASP.Net Core</li>
+              <li>NodeJS</li>
+              <li>SQL and NoSQL Databases</li>
+              <li>RESTful APIs</li>
+              <li>HTML/CSS</li>
+            </ul>
+            <p>For a resume or references, please contact srsrec at gmail dot com.</p>
+          </div>
         </Modal>
       </div>
     );
