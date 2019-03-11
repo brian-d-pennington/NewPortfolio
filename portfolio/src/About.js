@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Modal from 'react-responsive-modal';
 
 export class About extends React.Component {
@@ -23,7 +23,7 @@ export class About extends React.Component {
           onClick={this.onOpenModal}>ABOUT</button>
         <Modal open={open} onClose={this.onCloseModal} center>
           <div className="ui segment" style={{marginTop: '35px', fontFamily: 'sans-serif'}}>
-            <p>Brian Pennington is a Junior Developer based in Milwaukee, WI.</p>
+            <p style={{fontSize: '17px'}}>Brian Pennington is a Junior Developer based in Milwaukee, WI.</p>
             <p>Experience in the following:</p>
             <ul>
               <li>React/JavaScript (used to build this page)</li>
@@ -33,7 +33,7 @@ export class About extends React.Component {
               <li>RESTful APIs</li>
               <li>HTML/CSS</li>
             </ul>
-            <p>For a resume or references, please contact srsrec at gmail dot com.</p>
+            <p style={{textAlign: 'center'}}>For a resume or references, please contact srsrec at gmail dot com.</p>
           </div>
         </Modal>
       </div>

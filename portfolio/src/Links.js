@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Modal from 'react-responsive-modal';
 
 export class Links extends React.Component {
@@ -22,7 +22,12 @@ export class Links extends React.Component {
             style={{backgroundColor: '#ffffff'}}
             onClick={this.onOpenModal}>LINKS</button>
         <Modal open={open} onClose={this.onCloseModal} center>
-          <h2>Simple centered modal</h2>
+        <div className="ui segment" style={{marginTop: '35px', fontFamily: 'sans-serif'}}>
+          <p>(more coming soon)</p>
+          <a href="https://github.com/brian-d-pennington">Github</a>
+          <br />
+          <a href="https://www.linkedin.com/in/brian-pennington-201319177/">LinkedIn</a>
+        </div>
         </Modal>
       </div>
     );
