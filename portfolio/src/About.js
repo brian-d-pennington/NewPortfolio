@@ -33,7 +33,7 @@ export class About extends React.Component {
               <li>RESTful APIs</li>
               <li>HTML/CSS</li>
             </ul>
-            <p style={{textAlign: 'center'}}>For a resume or references, please contact srsrec at gmail dot com.</p>
+            <p>For a resume or references, please contact srsrec at gmail dot com.</p>
           </div>
         </Modal>
       </div>
