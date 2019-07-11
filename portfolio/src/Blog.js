@@ -18,7 +18,7 @@ export class Blog extends React.Component {
     const { open } = this.state;
     return (
       <div>
-        <button className="ui button" 
+        <button className="ui button" id="blog"
             style={{backgroundColor: '#ffffff'}}
             onClick={this.onOpenModal}>BLOG</button>
         <Modal open={open} onClose={this.onCloseModal} center>

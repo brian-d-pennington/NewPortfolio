@@ -18,7 +18,7 @@ export class Links extends React.Component {
     const { open } = this.state;
     return (
       <div>
-        <button className="ui button" 
+        <button className="ui button" id="links"
             style={{backgroundColor: '#ffffff'}}
             onClick={this.onOpenModal}>LINKS</button>
         <Modal open={open} onClose={this.onCloseModal} center>
